@@ -1,0 +1,180 @@
+@font-face {
+	font-family: 'Text-Cond';
+	src: url('../fonts/cond-pro/PFDinTextCondPro-Bold.eot') format('eot');
+	src: local('Text-Cond Bold'), url('../fonts/cond-pro/PFDinTextCondPro-Bold.woff') format('woff'), url('../fonts/cond-pro/PFDinTextCondPro-Bold.ttf') format('truetype'), url('../fonts/cond-pro/PFDinTextCondPro-Bold.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+nav {
+  position: absolute;
+  left: 4.17%;
+  right: 4.17%;
+  top: 1.33%;
+  bottom: 96.62%;
+}
+
+.main-menu {
+  text-decoration: none;
+  color: #C3B9B5;
+  padding: 20px;
+  font-weight: bolder;
+  font-size: larger;  
+}
+
+.main-menu:hover {
+text-decoration:underline;  
+}
+
+h1 {
+  color: #080606;
+  font-size: 50pt;
+  font-family: 'Text-Cond', sans-serif;
+}
+
+h2 {
+  color: #59443F;
+  font-size: 40pt;
+}
+
+h2:target {
+  background: rgba(128, 128, 128, 0.7);
+  padding: 5px;
+  }
+
+h3 {
+  color: #59443F;
+  font-size: 30pt;
+}
+
+p {
+  font-family: 'SchoolBook';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #080606;
+}
+
+li {
+  font-family: 'SchoolBook';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #080606;
+}
+
+td, th {
+  font-size: 30pt;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #59443F;
+  height: 200px;
+}
+              
+button {
+  width: 30%;
+  height: 70px;
+  margin: 50px;
+  background-color: #FFC59E;
+  color: #C3B9B5;
+  border-radius: 40px;
+  border: none;
+  margin-left: 500px;
+}
+          
+button:active {
+  background-color: lightcoral;
+  border: solid 2px black;
+}
+                
+.analysis:link {
+  color:blueviolet;
+}
+          
+.analysis:visited {
+  color:green;
+}
+
+.menu:link {
+  color: #59443F;
+}
+          
+.menu:visited {
+color: #59443F;
+}
+
+.therapy-item {
+  font-family: 'Futura New';
+  font-style:normal;
+  font-weight: 400;
+  font-size: 20pt;
+  line-height: 30px;
+  list-style-type: none;
+}
+
+.therapy-item::after {
+  content: "(узнать больше)";
+  padding: 15px;
+  color: #FFC59E;
+}
+
+.therapy-item:link {
+  color: #59443F;
+}
+
+.therapy-item:visited {
+  color: #59443F;
+}
+
+.doc {
+  display: inline-block;
+  width: 344px;
+  height: 150px;
+  padding: 20px;
+  background-color:rgb(237, 233, 232, 0.5); 
+  font-size: 20pt;
+  font-weight: 200;
+  text-align: center;
+  margin-right: 200px;
+}
+
+.list {
+  list-style-type: none; 
+}
+
+.list::before {
+  content: "- "; 
+}
+
+.price-table {
+  border: solid 2px black;
+  margin: 100px;
+  width: 50%;
+  height: 30%;
+}
+
+.price-item:nth-child(odd) {
+  background-color:#EDE9E8;
+}
+
+.price-item:nth-child(even) {
+  background-color:white;
+}
+
+#visit-doctor {
+  font-family:'PT Sans', sans-serif;     
+  font-size:20pt;
+  font-weight: 600;
+  color: #59443F;
+  text-decoration: none;
+}
+
+#visit-doctor:hover {
+  text-decoration:#59443F dotted underline;
+}
+

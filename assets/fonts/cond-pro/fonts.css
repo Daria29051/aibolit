@@ -1,0 +1,9 @@
+
+@font-face {
+	font-family: 'Text-Cond';
+	src: url('../../../assets/fonts/cond-pro/PFDinTextCondPro-Bold.eot')format('eot');
+	src: local('☺'), url('../../../assets/fonts/cond-pro/PFDinTextCondPro-Bold.woff') format('woff'), url('../../../assets/fonts/cond-pro/PFDinTextCondPro-Bold.ttf') format('truetype'), url('../../../assets/fonts/cond-pro/PFDinTextCondPro-Bold.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
