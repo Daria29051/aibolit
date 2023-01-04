@@ -6,25 +6,82 @@
 	font-style: normal;
 }
 
-nav {
-  position: absolute;
-  left: 4.17%;
-  right: 4.17%;
-  top: 1.33%;
-  bottom: 96.62%;
+.header-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-top: 70px;
+  
 }
 
-.main-menu {
+.doctor-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  
+}  
+
+
+
+.all-services-container {
+  display: flex;
+  height: 456px;
+  background-color: #EDE9E8;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.all-services-item {
+  justify-content: flex-start;
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 40px;
+  width: 320px;
+  height: 220px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+}
+
+.header-item {
   text-decoration: none;
   color: #C3B9B5;
   padding: 20px;
+  margin: 30px;
   font-weight: bolder;
-  font-size: larger;  
+  font-size: larger;
+  font-family: Futura New, serif ;  
 }
 
-.main-menu:hover {
+.header-item:hover {
 text-decoration:underline;  
 }
+
+
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer-item {
+  font-size: 20px;
+  font-weight: 400;
+  width: 20%;
+  margin: 30px;
+  padding: 20px;
+  line-height: 1.8;
+  color: #FFFFFF;
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-logo {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 
 h1 {
   color: #080606;
@@ -73,18 +130,18 @@ td, th {
 
 footer {
   background-color: #59443F;
-  height: 200px;
+  
 }
               
 button {
+  display: block;
+  height: 100px;
   width: 30%;
-  height: 70px;
-  margin: 50px;
   background-color: #FFC59E;
   color: #C3B9B5;
   border-radius: 40px;
   border: none;
-  margin-left: 500px;
+  margin: auto;
 }
           
 button:active {
@@ -132,7 +189,6 @@ color: #59443F;
 }
 
 .doc {
-  display: inline-block;
   width: 344px;
   height: 150px;
   padding: 20px;
@@ -140,7 +196,8 @@ color: #59443F;
   font-size: 20pt;
   font-weight: 200;
   text-align: center;
-  margin-right: 200px;
+  vertical-align: middle;
+  line-height: 1.3;
 }
 
 .list {
@@ -168,13 +225,25 @@ color: #59443F;
 
 #visit-doctor {
   font-family:'PT Sans', sans-serif;     
-  font-size:20pt;
+  font-size:30pt;
   font-weight: 600;
   color: #59443F;
   text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
 }
 
 #visit-doctor:hover {
-  text-decoration:#59443F dotted underline;
+  text-decoration:#59443F dotted underline; 
+}
+
+.footer-link:link {
+  color:#FFFFFF;
+  text-decoration: none;
+}
+          
+.footer-link:visited {
+  color:#FFFFFF;
+  text-decoration: none;
 }
 

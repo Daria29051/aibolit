@@ -16,14 +16,18 @@
   </head>
 
   <body>
-    <header>
-      <img src="assets/images/vetlogo.png" alt="Айболит лого" />
+    <header class="header-container">
+      <img
+        class="header-logo"
+        src="assets/images/vetlogo.png"
+        alt="Айболит лого"
+      />
       <nav>
-        <span class="main-menu">ЛИЧНЫЙ КАБИНЕТ</span>
-        <span class="main-menu">О НАС</span>
-        <span class="main-menu">НОВОСТИ И АКЦИИ</span>
-        <span class="main-menu">КОНТАКТЫ</span>
-        <span class="main-menu">БЛОГ</span>
+        <span class="header-item">ЛИЧНЫЙ КАБИНЕТ</span>
+        <span class="header-item">О НАС</span>
+        <span class="header-item">НОВОСТИ И АКЦИИ</span>
+        <span class="header-item">КОНТАКТЫ</span>
+        <span class="header-item">БЛОГ</span>
       </nav>
     </header>
 
@@ -46,27 +50,32 @@
       </ul>
 
       <h2 id="needdoctor">Записаться на приём к терапевту</h2>
-      <div class="doc">
-        Петров <br />
-        Петр <br />
-        Петрович
+
+      <div class="doctor-container">
+        <div class="doc">
+          Петров <br />
+          Петр <br />
+          Петрович
+        </div>
+
+        <div class="doc">
+          Иванов <br />
+          Иван <br />
+          Иванович
+        </div>
+
+        <div class="doc">
+          Сергеев <br />
+          Сергей <br />
+          Сергеевич
+        </div>
       </div>
 
-      <div class="doc">
-        Иванов <br />
-        Иван <br />
-        Иванович
+      
+        <form action="https://vetklinika.kz/online-consultations/">
+          <button><span id="visit-doctor">Записаться к врачу</span></button>
+        </form>
       </div>
-
-      <div class="doc">
-        Сергеев <br />
-        Сергей <br />
-        Сергеевич
-      </div>
-
-      <form action="https://vetklinika.kz/online-consultations/">
-        <button><span id="visit-doctor">Записаться к врачу</span></button>
-      </form>
 
       <section>
         <h2 id="therapy">Терапия в нашей клинике</h2>
@@ -227,8 +236,59 @@
     </main>
     <br />
 
-    <footer>
-      <img src="assets/images/vetlogo-footer.png" alt="лого футер" />
+    <div class="all-services-container">
+      <div class="all-services-item">Терапия</div>
+      <div class="all-services-item">Хирургия</div>
+      <div class="all-services-item">Неврология</div>
+      <div class="all-services-item">Ортопедия</div>
+    </div>
+
+    <footer class="footer-container">
+      <div class="footer-logo">
+        <img src="assets/images/vetlogo-footer.png" alt="лого футер" />
+      </div>
+      <div class="footer-item">
+        <a class="footer-link" href="#">Политика конфиденциальности в отношении обработки персональных данных
+        </a></div>
+      <div class="footer-item">
+       <a class="footer-link" href="#">Главная</a> <br />
+       <a class="footer-link" href="#">Услуги и цены</a><br />
+       <a class="footer-link" href="#">История компании</a><br />
+       <a class="footer-link" href="#">Наши специалисты</a><br />
+       <a class="footer-link" href="#">Вакансии</a><br />
+       <a class="footer-link" href="#">Реквизиты</a><br />
+       <a class="footer-link" href="#">Онлайн-оплата</a><br />
+      </div>
+
+      <div class="footer-item">
+        <a class="footer-link" href="#">Отзывы</a> <br />
+        <a class="footer-link" href="#">Контакты</a><br />
+        <a class="footer-link" href="#">История компании</a><br />
+        <a class="footer-link" href="#">Новости и акции</a><br />
+        <a class="footer-link" href="#">Груминг-салон</a><br />
+        <a class="footer-link" href="#">Блог</a>
+      </div>
+      <div class="footer-item">
+        <img
+          src="assets/images/social-networks/Group 6.png"
+          alt="stores"
+        /><br />
+        <img src="assets/images/social-networks/inst.png" alt="inst" />
+        <img src="assets/images/social-networks/fb.png" alt="fb" />
+        <img src="assets/images/social-networks/vk.png" alt="vk" />
+        <img src="assets/images/social-networks/youtube.png" alt="youtube" />
+        <br />
+        <img
+          src="assets/images/social-networks/contact-mails.png"
+          alt="contact-mails"
+        />
+        <br />
+        <img
+          src="assets/images/social-networks/site-redactor.png"
+          alt="site-redactor"
+        />
+        <br />
+      </div>
     </footer>
   </body>
 </html>
