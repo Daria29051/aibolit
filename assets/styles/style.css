@@ -11,17 +11,13 @@
   flex-flow: row nowrap;
   justify-content: flex-start;
   margin-top: 70px;
-  
 }
 
 .doctor-container {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 30px;
-  
 }  
-
-
 
 .all-services-container {
   display: flex;
@@ -55,7 +51,7 @@
 }
 
 .header-item:hover {
-text-decoration:underline;  
+  text-decoration:underline;  
 }
 
 
@@ -82,7 +78,6 @@ text-decoration:underline;
   margin-left: 20px;
 }
 
-
 h1 {
   color: #080606;
   font-size: 50pt;
@@ -97,7 +92,7 @@ h2 {
 h2:target {
   background: rgba(128, 128, 128, 0.7);
   padding: 5px;
-  }
+}
 
 h3 {
   color: #59443F;
@@ -130,7 +125,6 @@ td, th {
 
 footer {
   background-color: #59443F;
-  
 }
               
 button {
