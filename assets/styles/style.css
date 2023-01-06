@@ -28,6 +28,8 @@
 }
 
 .all-services-item {
+  display: flex;
+  cursor: pointer;
   justify-content: flex-start;
   font-size: 30px;
   margin: 20px;
@@ -38,6 +40,15 @@
   text-align: center;
   vertical-align: middle;
   background-color: #FFFFFF;
+}
+
+.all-services-item:hover {
+  background-color: rgba(89, 68, 63, 0.5);
+}
+
+.pic{
+  align-self: flex-end;
+  margin-left: auto;
 }
 
 .header-item {
@@ -127,7 +138,8 @@ footer {
   background-color: #59443F;
 }
               
-button {
+.button {
+  cursor: pointer;
   display: block;
   height: 100px;
   width: 30%;
@@ -141,6 +153,10 @@ button {
 button:active {
   background-color: lightcoral;
   border: solid 2px black;
+}
+
+button:hover {
+  background-color: lightcoral;
 }
                 
 .analysis:link {
@@ -183,15 +199,22 @@ color: #59443F;
 }
 
 .doc {
+  cursor: pointer;
   width: 344px;
   height: 150px;
   padding: 20px;
-  background-color:rgb(237, 233, 232, 0.5); 
+  background-color:rgba(237, 233, 232, 0.5); 
+  border-radius: 40px;
   font-size: 20pt;
   font-weight: 200;
   text-align: center;
   vertical-align: middle;
   line-height: 1.3;
+}
+
+.doc:hover {
+  text-decoration: underline;
+  background-color:rgba(89, 68, 63, 0.5);
 }
 
 .list {
@@ -240,4 +263,6 @@ color: #59443F;
   color:#FFFFFF;
   text-decoration: none;
 }
+
+
 
